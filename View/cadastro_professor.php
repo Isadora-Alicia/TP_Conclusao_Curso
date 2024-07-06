@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Cadastro Professores</title>
+        <link rel="stylesheet" href="estilo.css">
     </head>
     <body>
         <h2>Cadastro Professores</h2>
@@ -18,7 +19,7 @@
             <label for="descontos">Descontos: </label>
             <input type="number" step="0.01" id="descontos" nome="descontos">
 
-            <button type="submit">Adicionar Professor</button>
+            <button class="botao" type="submit">Adicionar Professor</button>
 
         </form>
     </body>
